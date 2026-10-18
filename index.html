@@ -1,0 +1,290 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Student portfolio — replace this description with your own.">
+  <title>Angela Day | Student Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home" aria-label="Go to homepage">DAY<span>.</span></a>
+
+      <button class="menu-toggle" type="button"
+        aria-label="Open navigation menu"
+        aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a class="nav-link active" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#skills">Skills</a></li>
+        <li><a class="nav-link" href="#projects">Projects</a></li>
+        <li><a class="nav-link nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> STUDENT PORTFOLIO</p>
+          <h1>Hello, I'm<br><span class="accent">Angela B. Day</span></h1>
+          <p class="hero-subtitle">BSIT-4 student who loves web design, exploring new technologies, and bringing creative ideas to life. 💗</p>
+          <p class="hero-text">Welcome to my portfolio! A little space to show what I've been working on, what I'm learning, and how I'm growing as an IT student.</p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↘</span></a>
+            <a class="text-link" href="#contact">Let's connect <span aria-hidden="true">↗</span></a>
+          </div>
+
+          <div class="hero-meta">
+            <span>BASED IN [YOUR CITY]</span>
+            <span class="meta-line"></span>
+            <span>OPEN TO LEARNING</span>
+          </div>
+        </div>
+
+        <!-- Redesigned photo area -->
+        
+        <div class="hero-art" aria-label="Profile photo">
+          <div class="photo-blob"></div>
+
+          <div class="photo-orbit photo-orbit-one"></div>
+          <div class="photo-orbit photo-orbit-two"></div>
+
+          <div class="photo-circle">
+            <img
+              src="images/gela.png"
+              alt="Portrait of [Your Name]"
+              class="profile-photo"
+            >
+          </div>
+
+          <span class="photo-sparkle sparkle-one" aria-hidden="true">✳</span>
+          <span class="photo-sparkle sparkle-two" aria-hidden="true">✦</span>
+
+          <span class="orbit-dot dot-one"></span>
+          <span class="orbit-dot dot-two"></span>
+        </div>
+
+          <span class="sparkle sparkle-one">✳</span>
+          <span class="sparkle sparkle-two">✦</span>
+          <span class="photo-label">HELLO, WORLD!</span>
+        </div>
+      </div>
+
+      <div class="hero-bottom container">
+        <span>SCROLL TO EXPLORE</span>
+        <a href="#about" aria-label="Scroll to About section">↓</a>
+        <span class="hero-bottom-line"></span>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="about">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">01 / A LITTLE ABOUT ME</p>
+          <h2>Getting to know <span class="accent">me.</span></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-mark">
+            <span>“</span>
+            <p>Learning today.<br>Creating tomorrow.</p>
+          </div>
+
+          <div class="about-copy">
+            <h3>I'm a student who loves learning new things and trying out new ideas</h3>
+            <p>I'm currently a student who enjoys learning new things and exploring my interests. I became interested in technology because I like discovering how things work and how they can make everyday life easier. I enjoy learning new skills, trying out different ideas, and working on projects that let me be creative. I'm still learning and improving, and I'm excited to see where this journey takes me.</p>
+            <p>My goal is to keep learning, improve my skills, and gain more experience through different projects. I know I still have a lot to learn, but I'm willing to try new things, learn from my mistakes, and do my best to improve along the way.</p>
+
+            <div class="about-facts">
+              <div>
+            <span class="fact-label">CURRENTLY STUDYING</span>
+            <strong>BSIT – 4th Year</strong>
+          </div>
+          <div>
+            <span class="fact-label">MY FOCUS</span>
+            <strong>Discovering My Interests</strong>
+          </div>
+          <div>
+            <span class="fact-label">MY GOAL</span>
+            <strong>Keep Learning and Improving</strong>
+          </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">02 / WHAT I'M LEARNING</p>
+          <h2>Skills & <span class="accent">tools.</span></h2>
+          <p class="section-intro">A snapshot of the things I can do and the tools I'm exploring. Update these to match your real experience.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <div class="skill-number">01</div>
+            <div class="skill-symbol">⌘</div>
+            <h3>Web Development</h3>
+            <p>I have basic knowledge of building websites using HTML, CSS, and JavaScript. I can create simple web pages, style layouts, and add interactive features.</p>
+            <div class="tag-list"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-number">02</div>
+            <div class="skill-symbol">✳</div>
+            <h3>Design</h3>
+            <p>I have experience designing user interfaces in Figma, including layouts and prototypes. I focus on making designs simple, organized, and easy to use.</p>
+            <div class="tag-list"><span>Figma</span><span>UI/UX Design</span></div>
+          </article>
+
+          <article class="skill-card">
+            <div class="skill-number">03</div>
+            <div class="skill-symbol">↗</div>
+            <h3>Other Skills</h3>
+            <p>I can work with others on school projects, share ideas, and solve problems as a team. I am also willing to learn new tools and improve my technical skills.</p>
+            <div class="tag-list"><span>Teamwork</span><span>Problem-Solving</span></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="projects">
+      <div class="container">
+        <div class="section-heading projects-heading">
+          <div>
+            <p class="eyebrow">03 / THINGS I'VE MADE</p>
+            <h2>Selected <span class="accent">projects.</span></h2>
+          </div>
+        </div>
+        
+        <div class="projects-grid">
+           <article class="project-card">
+    <div class="project-visual visual-one">
+      <span class="visual-label"></span>
+
+      <img
+        src="images/mataya taya.png"
+        alt="Mataya-Taya Game Dev interface"
+        class="project-image"
+      />
+
+      <span class="visual-star">✳</span>
+    </div>
+
+    <div class="project-info">
+      <div class="project-type">SCHOOL / GAME DEVELOPMENT</div>
+      <h3>Mataya-Taya Game Dev</h3>
+      <p>
+        An interactive game inspired by the traditional Mataya-Taya game.
+        Built using HTML, CSS, and JavaScript, this project helped us
+        develop our programming, creativity, and web development skills.
+      </p>
+
+      <div class="project-footer">
+        <div class="tag-list">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+        </div>
+
+        <a
+          class="project-link"
+          href="https://pjdoriacodes.github.io/Pinoy-Games-DDDST/"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="View Mataya-Taya Game Dev project"
+        >
+          View project ↗
+        </a>
+      </div>
+    </div>
+  </article>
+
+           <article class="project-card">
+    <div class="project-visual visual-two">
+      <span class="visual-label"></span>
+
+      <img
+        src="images/figma.png"
+        alt="Digital Social Pension System UI design"
+        class="project-image"
+      />
+
+      <span class="visual-star">✦</span>
+    </div>
+
+    <div class="project-info">
+      <div class="project-type">UI/UX DESIGN / FIGMA</div>
+      <h3>Digital Social Pension System</h3>
+      <p>
+        A Figma UI design project focused on making social pension
+        services more accessible and convenient for senior citizens.
+        This project helped us understand the importance of creating
+        simple, clear, and user-friendly interfaces.
+      </p>
+
+      <div class="project-footer">
+        <div class="tag-list">
+          <span>Figma</span>
+          <span>UI/UX Design</span>
+        </div>
+
+        <a
+          class="project-link"
+          href="https://www.figma.com/design/8Cp5QRNGrUzPPsOMl35ND3/System?node-id=0-1&t=eOu5IqD6Mqp7MB4K-1"
+          target="_blank"
+          rel="noreferrer"
+          aria-label="View Digital Social Pension System design"
+        >
+          View design ↗
+        </a>
+      </div>
+    </div>
+  </article>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+        <div>
+          <p class="eyebrow">04 / SAY HELLO</p>
+          <h2>Have an idea?<br><span class="accent">Let's talk.</span></h2>
+          <p class="contact-copy">I'm always happy to connect, learn from others, and hear about interesting opportunities.</p>
+        </div>
+
+        <div class="contact-panel">
+          <p class="contact-panel-label">YOU CAN REACH ME AT</p>
+          <a class="email-link" href="geladay18@gmail.com">geladay18@gmail.com<span>↗</span></a>
+          <div class="contact-divider"></div>
+          <p class="contact-panel-label">FIND ME ONLINE</p>
+          <div class="social-links">
+            <a href="https://github.com/" target="_blank" rel="noreferrer">Gmail ↗</a>
+            <a href="https://www.facebook.com/angela.day.12935" target="_blank" rel="noreferrer">Facebook ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>Designed & built by Angela Day · <span id="year"></span></p>
+      <a class="back-top" href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
